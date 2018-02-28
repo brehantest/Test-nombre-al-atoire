@@ -1,5 +1,8 @@
-function bonjour(prenom)
-{
+/*function bonjour(prenom){
 return "bonjour " + prenom ;
 }
-bonjour("laurent")
+bonjour("laurent")*/
+
+function nbAleatoire() {
+	
+}
