@@ -9,6 +9,12 @@ console.log("Nombre aléatoire = ", Math.random());
 var nb = prompt("Entrez un nombre entre 0 et 1", nb);
 console.log("Votre nombre est: ", nb);
 
+if (nb == null) {confirm("Vous voulez quitter le programme du Nombre aléatoire ?");
+console.log("Vous voulez quitter le programme du Nombre aléatoire ?");}
+
+if (confirm = true) {alert("Vous avez quitté le programme du Nombre aléatoire");}
+console.log("Vous avez quitté le programme du Nombre aléatoire");
+
 if (nb != null && nb == '') {alert("Vous avez validé sans renseigner de nombre compris entre 0 et 1");
 console.log("Vous avez validé sans renseigner de nombre compris entre 0 et 1");}
 
