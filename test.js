@@ -13,19 +13,18 @@ if (nb != null && nb == '') {alert("Vous avez validé sans renseigner de nombre 
 console.log("Vous avez validé sans renseigner de nombre compris entre 0 et 1");}
 
 
-else if (nb != null && nb <= Math.random()) {
-	alert("Votre nombre est inférieur ou égal au nombre aléatoire ");
-console.log("Votre nombre est < inférieur ou égal au nombre aléatoire");}
+else if (nb != null && nb < Math.random()) {
+	alert("Votre nombre est inférieur au nombre aléatoire ");
+console.log("Votre nombre est < inférieur au nombre aléatoire");}
 
 
 
-else if (nb != null && nb >= Math.random()) {
-	alert("Votre nombre est > supérieur ou égal au nombre aléatoire ");
-console.log("Votre nombre est supérieur ou égal au nombre aléatoire");}
+else if (nb != null && nb > Math.random()) {
+	alert("Votre nombre est > supérieur au nombre aléatoire ");
+console.log("Votre nombre est supérieur au nombre aléatoire");}
 
 
 
 else if (nb != null && nb == Math.random()) {
 alert("Votre nombre est égal au nombre aléatoire ");
 console.log("Votre nombre est égal au nombre aléatoire");}
-
